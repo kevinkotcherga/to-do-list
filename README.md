@@ -23,6 +23,7 @@
 - React
 - React Router DOM
 - GSAP (pour les animations)
+- React Color
 - SCSS et BEM (pour une gestion efficace des styles)
 
 ## Prérequis
