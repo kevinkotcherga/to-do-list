@@ -1,0 +1,22 @@
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 28px;
+  font-weight: 700;
+
+  &__image {
+    max-width: 38px;
+  }
+}
+
+@media (max-width: 576px) {
+  .logo {
+    gap: 5px;
+    font-size: 21px;
+
+    &__image {
+      max-width: 28px;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.task-form {
+  display: flex;
+  position: relative;
+  height: 60px;
+
+  &__input-text {
+    background-color: #FBFCFF;
+    border: none;
+    font-size: 21px;
+    width: 240px;
+  }
+
+  &__submit {
+    border: none;
+    cursor: pointer;
+    height: 100%;
+    width: 80px;
+    border-radius: 0 4px 4px 0;
+  }
+
+  &__image {
+    height: 50px;
+  }
+}
+
+@media (max-width: 576px) {
+  .task-form {
+    &__input-text {
+      width: 180px;
+    }
+  }
+}

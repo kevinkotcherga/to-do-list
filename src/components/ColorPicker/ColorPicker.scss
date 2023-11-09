@@ -1,0 +1,28 @@
+.color-picker {
+  position: relative;
+
+  &__button {
+    height: 60px;
+    width: 80px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px 0 0 4px;
+  }
+
+  &__emoji {
+    background-color: #ffffff;
+    border-radius: 50%;
+    padding: 3px;
+    font-size: 21px;
+  }
+
+  &__colors {
+    position: absolute !important;
+    z-index: 99;
+    top: 100%;
+    left: 20px;
+  }
+}

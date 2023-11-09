@@ -1,0 +1,40 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  padding: 10px;
+  font-weight: 600;
+  border-bottom: 1px solid #EFEFF8;
+
+  &__logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 28px;
+    font-weight: 700;
+  }
+
+  &__logo {
+    max-width: 38px;
+  }
+
+  &__list {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+
+  &__item {
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    &__list {
+      display: none;
+    }
+  }
+}

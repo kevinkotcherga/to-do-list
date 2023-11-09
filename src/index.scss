@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #FBFCFF;
+  color: #0A1A2B;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.badge {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: #0A1A2B;
+
+  &--landing-page-right {
+    right: 0px;
+    bottom: 50px;
+    transform: rotate(-10deg);
+  }
+
+  &--landing-page-left {
+    left: 0px;
+    bottom: -100px;
+    transform: rotate(10deg);
+  }
+
+  &--dashboard-right {
+    left: 7%;
+    bottom: 50px;
+    transform: rotate(10deg);
+  }
+
+  &--dashboard-left {
+    right: 7%;
+    bottom: 50px;
+    transform: rotate(-10deg);
+
+  }
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 125px;
+}
+
+@media (max-width: 992px) {
+  .container {
+    padding: 0 66px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 32px;
+  }
+
+  .badge {
+    &--landing-page-right {
+      right: 0px;
+      bottom: -120px;
+      transform: rotate(-10deg);
+    }
+
+    &--landing-page-left {
+      left: 0px;
+      bottom: -120px;
+      transform: rotate(10deg);
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding: 0 16px;
+  }
+
+  .badge {
+    &--landing-page-right {
+      display: none
+    }
+
+    &--landing-page-left {
+      display: none
+    }
+  }
+}
+
+//components
+@import './components/Navbar/Navbar.scss';
+@import './components/PreFooter.tsx/PreFooter.scss';
+@import './components/Footer/Footer.scss';
+@import './components/TryButton/TryButton.scss';
+@import './components/Header/Header.scss';
+@import './components/Introduction/Introduction.scss';
+@import './components/Logo/Logo.scss';
+@import './components/TodoItem/TodoItem.scss';
+@import './components/DashboardHeader/DashboardHeader.scss';
+@import './components/TodoList/TodoList.scss';
+@import './components/FaceContainer/FaceContainer.scss';
+@import './components/ColorPicker/ColorPicker.scss';
+@import './components/TaskForm/TaskForm.scss';
+@import './components/TodoInformation/TodoInformation.scss';
+@import './components/MenuMobile/MenuMobile.scss';
+
+// pages
+@import './pages/ErrorPage/ErrorPage.scss';

@@ -1,0 +1,12 @@
+.error-page {
+  text-align: center;
+
+  &__title {
+    margin-top: 100px;
+    font-size: 120px;
+  }
+
+  &__description {
+    font-size: 21px;
+  }
+}

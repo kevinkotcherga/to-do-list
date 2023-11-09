@@ -1,0 +1,78 @@
+.todo-item {
+  border: 2px solid black;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  width: 400px;
+
+  &:hover .todo-item__toggle:after {
+    content: '✔️';
+    position: absolute;
+  }
+
+  &__content {
+    display: flex;
+    align-items: center;
+  }
+
+  &__task-name {
+    font-weight: 600;
+    width: 300px;
+    overflow: hidden;
+    word-wrap: break-word;
+  }
+
+  &__toggle {
+    border: 1px solid #000000;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #FBFCFF;
+    cursor: pointer;
+  }
+
+  &__delete {
+    border: 1px solid #000000;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #FBFCFF;
+  }
+}
+
+.completed {
+  background-color: #ccc;
+}
+
+@media (max-width: 576px) {
+  .todo-item {
+    width: 340px;
+
+    &__toggle {
+      margin: 10px;
+    }
+
+    &__task-name {
+      width: 240px;
+      padding: 10px;
+    }
+
+    &__delete {
+      margin: 10px;
+    }
+  }
+}

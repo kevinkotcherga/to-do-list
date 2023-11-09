@@ -56,5 +56,3 @@ Le site est entièrement responsive.
 
 ## Remarques supplémentaires
 J'ai pris énormément de plaisir à réaliser ce projet. J'ai eu de nombreuses idées que j'ai pu mettre en œuvre. J'espère que ce projet démontre mon engagement envers l'intégration et le design sous React.
-
-# to-do-list
