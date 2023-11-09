@@ -33,7 +33,6 @@ const TodoList = () => {
   const colorChange = (color: ColorObject) => {
     setColor(color.hex)
     setIsOpen(isOpen => !isOpen);
-    console.log(typeof(color))
   }
 
   const openPicker = () => {
