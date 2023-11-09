@@ -35,7 +35,7 @@ const TodoList = () => {
     setIsOpen(isOpen => !isOpen);
   }
 
-  const openPicker = () => {
+  const togglePicker = () => {
     setIsOpen(isOpen => !isOpen)
   }
 
@@ -71,7 +71,7 @@ const TodoList = () => {
               color={color}
               isOpen={isOpen}
               onColorChange={colorChange}
-              onTogglePicker={openPicker}
+              onTogglePicker={togglePicker}
             />
           </div>
           <TaskForm
