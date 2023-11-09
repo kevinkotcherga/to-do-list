@@ -47,6 +47,7 @@ npm run dev
 
 ## Axe d'amélioration
 - Ajouter des variables SCSS pour améliorer la gestion des styles.
+- Créer un compte utilisateur et une base de données pour sauvegarder les tâches après avoir quitté l'application.
 - Implémenter des fonctionnalités de "drag and drop" pour faciliter le tri des todos.
 - Ajouter la posibilité de modifier le nom et la couleur des tâches.
 - Réaliser des tests unitaires.
