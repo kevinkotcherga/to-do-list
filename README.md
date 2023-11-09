@@ -29,7 +29,7 @@
 Assurez-vous d'avoir Node.js et npm installés.
 
 ## Installation
-1. Clonez ce dépôt : `git clone https://github.com/votre-utilisateur/todo-list-react.git`
+1. Clonez ce dépôt : `git clone https://github.com/kevinkotcherga/to-do-list.git`
 2. Installez les dépendances : `npm install`
 
 ## Exécution du projet
